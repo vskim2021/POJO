@@ -12,6 +12,12 @@ public class KCities {
 
         for (String city : cities) {
             System.out.println(city);
+
+            if (city.equals("tokyo")) {
+                found = true;
+                break;
+            }
         }
+        System.out.println("Found Tokyo? : " + found);
     }
 }
